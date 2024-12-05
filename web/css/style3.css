@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+img {
+    width: 100px; /* 设置图片宽度 */
+    height: auto; /* 高度自适应 */
+    border-radius: 5px; /* 圆角效果 */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #45a049; /* 鼠标悬停时的颜色变化 */
+}
+
+.table-container {
+    max-width: 1200px; /* 最大宽度 */
+    margin: auto; /* 居中对齐 */
+    padding: 20px; /* 内边距 */
+    border-radius: 8px; /* 圆角效果 */
+    background-color: #ffffff; /* 背景颜色 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 80px; /* 在小屏幕上减小图片大小 */
+    }
+}
